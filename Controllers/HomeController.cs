@@ -45,7 +45,7 @@ namespace RabbitMQConsumer.Controllers
                     consumer: ebcKuyruklar
                 );
             }
-            TempData["Message"] = strKisiListesi;
+            TempData["KisiListesi"] = strKisiListesi;
             return View();
         }
     }
