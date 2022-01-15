@@ -1,0 +1,12 @@
+﻿@{
+    string strKisiler =  TempData["Message"].ToString();
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">RabbitMQConsumer Projesi</h1>
+    <p>Kuyrukta bekleyen mesajları okuyalım.</p>
+    <p>
+        @strKisiler
+    </p>
+</div>
